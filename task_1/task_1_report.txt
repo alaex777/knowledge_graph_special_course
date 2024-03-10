@@ -1,0 +1,95 @@
+В результате проверки схожести пар словметодами lch, jcn и wup получидись следующие результаты
+
+LCH similarity between environment and ecology: 2.9444389791664407
+LCH similarity between television and radio: 2.538973871058276
+LCH similarity between media and radio: 2.2512917986064953
+LCH similarity between bread and butter: 2.2512917986064953
+LCH similarity between doctor and nurse: 2.2512917986064953
+LCH similarity between money and cash: 2.2512917986064953
+LCH similarity between computer and keyboard: 2.2512917986064953
+LCH similarity between professor and doctor: 1.6916760106710724
+LCH similarity between Jerusalem and Israel: 1.6916760106710724
+LCH similarity between OPEC and country: 1.6916760106710724
+LCH similarity between day and summer: 1.6916760106710724
+LCH similarity between train and car: 1.55814461804655
+LCH similarity between student and professor: 1.55814461804655
+LCH similarity between plane and car: 1.4403615823901665
+LCH similarity between planet and people: 1.3350010667323402
+LCH similarity between tiger and cat: 1.2396908869280152
+LCH similarity between wood and forest: 1.2396908869280152
+LCH similarity between planet and galaxy: 1.2396908869280152
+LCH similarity between day and dawn: 1.1526795099383855
+LCH similarity between money and bank: 1.1526795099383855
+LCH similarity between canyon and landscape: 1.072636802264849
+LCH similarity between country and citizen: 1.072636802264849
+LCH similarity between smart and stupid: 0.9985288301111273
+LCH similarity between OPEC and oil: 0.9295359586241757
+LCH similarity between cucumber and potato: 0.8043728156701697
+LCH similarity between Maradona and football: 0
+
+JCN similarity between television and radio: 0.5254699537619987
+JCN similarity between media and radio: 0.3533927595683522
+JCN similarity between doctor and nurse: 0.31942115160809587
+JCN similarity between money and cash: 0.29870272954666655
+JCN similarity between plane and car: 0.21650830958164818
+JCN similarity between professor and doctor: 0.18567352691311376
+JCN similarity between train and car: 0.18305260585299352
+JCN similarity between bread and butter: 0.17916549303049364
+JCN similarity between day and summer: 0.09142285918133361
+JCN similarity between planet and people: 0.07773563502482338
+JCN similarity between student and professor: 0.07610128832557295
+JCN similarity between computer and keyboard: 0.07321393916002464
+JCN similarity between day and dawn: 0.06844199266981428
+JCN similarity between Jerusalem and Israel: 0.06595248345530713
+JCN similarity between country and citizen: 0.06315956746613109
+JCN similarity between wood and forest: 0.06130707820618224
+JCN similarity between tiger and cat: 0.05930943314586368
+JCN similarity between money and bank: 0.05656224049107427
+JCN similarity between planet and galaxy: 0.050875028921790064
+JCN similarity between canyon and landscape: 0.04978158280364277
+JCN similarity between smart and stupid: 0.04363014565511515
+JCN similarity between cucumber and potato: 1e-300
+JCN similarity between OPEC and country: 1e-300
+JCN similarity between environment and ecology: 1e-300
+JCN similarity between OPEC and oil: 1e-300
+JCN similarity between Maradona and football: 0
+
+WUP similarity between environment and ecology: 0.9230769230769231
+WUP similarity between television and radio: 0.9
+WUP similarity between doctor and nurse: 0.8695652173913043
+WUP similarity between media and radio: 0.8235294117647058
+WUP similarity between computer and keyboard: 0.8235294117647058
+WUP similarity between money and cash: 0.8
+WUP similarity between bread and butter: 0.75
+WUP similarity between Jerusalem and Israel: 0.7
+WUP similarity between plane and car: 0.6666666666666666
+WUP similarity between train and car: 0.6666666666666666
+WUP similarity between OPEC and country: 0.625
+WUP similarity between student and professor: 0.5714285714285714
+WUP similarity between tiger and cat: 0.5454545454545454
+WUP similarity between professor and doctor: 0.5
+WUP similarity between day and summer: 0.5
+WUP similarity between canyon and landscape: 0.3333333333333333
+WUP similarity between wood and forest: 0.2857142857142857
+WUP similarity between day and dawn: 0.26666666666666666
+WUP similarity between OPEC and oil: 0.2222222222222222
+WUP similarity between cucumber and potato: 0.2
+WUP similarity between planet and people: 0.18181818181818182
+WUP similarity between planet and galaxy: 0.16666666666666666
+WUP similarity between money and bank: 0.15384615384615385
+WUP similarity between country and citizen: 0.14285714285714285
+WUP similarity between smart and stupid: 0.13333333333333333
+WUP similarity between Maradona and football: 0
+
+В результате вычисления корреляции Спирмена получились такие результаты
+
+Spearman correlation between LCH and JCN similarities: 0.9789852178274431
+Spearman correlation between LCH and WUP similarities: 0.988674219428025
+Spearman correlation between JCN and WUP similarities: 0.9983110142516906
+
+Как можно видеть все они довольно сильно схожи (результат корреляции блзок к единице)
+
+Отсутствие схожести между схожими словами объясняется факторами:
+1. Отсутствия слов в словаре, как в случае с Марадона, потому схожесть с ним равна 0
+2. Непрямая связь между словами, как в случае с парой: ОПЕК, нефть, так как опек это в первую очередь картель стран
+3. Везде пара: умныйб глупый так же оказалась несхожей, судя по всему потому что эти слова антонимы
