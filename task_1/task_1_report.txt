@@ -1,6 +1,14 @@
 Как можно видеть корреляция Спирмена близка к единице во всех случаях (lch, jcn, wup и relatedness, similarity)
 
-Отсутствие схожести между схожими словами объясняется факторами:
-1. Отсутствия слов в словаре, как в случае с Марадона, потому схожесть с ним равна 0
-2. Непрямая связь между словами, как в случае с парой: ОПЕК, нефть, так как опек это в первую очередь картель стран
-3. Везде пара: умныйб глупый так же оказалась несхожей, судя по всему потому что эти слова антонимы
+При этом wordnet лучше справляется с similarity, чем relatedness
+
+Отсутствие связи между словами объясняется несколькими причинами:
+1. Их отсутствием в словаре wordnet, как в случае с Maradona - http://wordnetweb.princeton.edu/perl/webwn?s=Maradona&sub=Search+WordNet&o2=&o0=1&o8=1&o1=1&o7=&o5=&o9=&o6=&o3=&o4=&h=
+2. Отсутствием упоминаний слов в определениях друг друга
+stock - http://wordnetweb.princeton.edu/perl/webwn?s=stock&sub=Search+WordNet&o2=&o0=1&o8=1&o1=1&o7=&o5=&o9=&o6=&o3=&o4=&h=
+jaguar - http://wordnetweb.princeton.edu/perl/webwn?s=jaguar&sub=Search+WordNet&o2=&o0=1&o8=1&o1=1&o7=&o5=&o9=&o6=&o3=&o4=&h=000000000000000000000000000
+
+Максимальная схожесть возникает, когда слова считаются синонимами по мнению wordnet
+midday - http://wordnetweb.princeton.edu/perl/webwn?s=midday&sub=Search+WordNet&o2=&o0=1&o8=1&o1=1&o7=&o5=&o9=&o6=&o3=&o4=&h=0, как можно заметить noon стоит как первый синонимами
+Аналогичная ситуация с
+car - http://wordnetweb.princeton.edu/perl/webwn?s=car&sub=Search+WordNet&o2=&o0=1&o8=1&o1=1&o7=&o5=&o9=&o6=&o3=&o4=&h=0 - automobile

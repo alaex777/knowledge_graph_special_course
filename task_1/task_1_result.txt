@@ -1968,7 +1968,7 @@ WUP relatedness between Maradona and football: 0
 В результате вычисления корреляции Спирмена получились такие результаты
 
 Spearman correlation for LCH similarity: 0.9973808501094311
-Spearman correlation for JCN similarity: -inf
+Spearman correlation for JCN similarity: 0.9967027971707249
 Spearman correlation for WUP similarity: 0.9959292776672838
 
 Spearman correlation for LCH relatedness: 0.9979640768127495
